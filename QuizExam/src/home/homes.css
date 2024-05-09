@@ -1,0 +1,25 @@
+.summer {
+  height: auto;
+  text-align: left;
+  padding: 100px 80px;
+  background-size: cover;
+  margin-top: 100px;
+
+  h1 {
+    width: 800px;
+    font-size: 80px;
+  }
+  p {
+    font-size: 25px;
+  }
+
+  .shopbtn {
+    background-color: rgb(254, 76, 80) ;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: none;
+    font-size: 20px;
+  }
+}
+

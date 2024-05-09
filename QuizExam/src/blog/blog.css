@@ -1,0 +1,50 @@
+.blog{
+    margin-top: 100px;
+    h1{
+        font-size: 50px;
+        color: black;
+    }
+    hr{
+        width: 100px;
+        height: 5px;
+        background-color: red;
+        border: none;
+    }
+    .image{
+        display: flex;
+        gap: 50px;
+        margin-top: 50px;
+       
+    }
+    .img{
+      background-repeat: no-repeat;
+      width: 800px;
+      height: 500px;
+
+    }
+}
+.boxes h1 {
+    width: 250px;
+    height: 200px;
+    display: none;
+    margin-left: 70px;
+    margin-top: 40px;
+    background-color: white;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.boxes:hover h1 {
+
+    display: block;
+ 
+
+}
+.readbtn{
+    display: none;
+}
+.boxes:hover .readbtn{
+    display: block;
+}

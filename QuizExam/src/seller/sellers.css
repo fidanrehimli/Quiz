@@ -1,0 +1,21 @@
+.seller{
+    h1{
+        font-size: 50px;
+        margin-top: 70px;
+    }
+    hr{
+        border: none;
+        height: 5px;
+        width: 50px;
+        background-color: red;
+    }
+}
+.mainbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 50px;
+}

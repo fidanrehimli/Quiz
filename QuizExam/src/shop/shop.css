@@ -1,0 +1,78 @@
+.shop{
+    h1{
+        font-size: 50px;
+        color: rgb(40,40,40);
+        margin-left: 500px;
+    }
+    hr{
+        border: none;
+        height: 5px;
+        width: 50px;
+        background-color: red;
+    }
+    .buttons{
+        display: flex;
+        border: 1px solid rgb(237,237,237);
+        border: none;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+
+        .allbtn{
+            background-color: red;
+            color: white;
+            border: none;
+        }
+        button{
+            width: 150px;
+            height: 40px;
+            color: rgb(91,71,55);
+        }
+    }
+}
+.mainbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 50px;
+    gap: 50px;
+    .row{
+        display: flex;
+    }
+}
+.price{
+    color: red;
+    font-size: 20px;
+    font-weight: 800;
+}
+.title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.box:hover{
+    color: red;
+    width: 350px;
+    height: 550px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: whitesmoke;
+
+}
+.addbtn{
+    display: none;
+}
+.box:hover .addbtn{
+    margin-left: 50px;
+    display: block;
+}
+.searchinp{
+    margin-top: 30px;
+  margin-left: 450px;
+  width: 400px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
